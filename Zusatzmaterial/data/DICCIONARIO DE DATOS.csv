@@ -1,0 +1,26 @@
+﻿CAMPO,DESCRIPCION,TIPO,VALOR_POSIBLE
+CLAVE,Clave del sitio de monitoreo,Texto,A - Z
+SITIO,Nombre del sitio de muestreo,Texto,A - Z
+CUENCA,Nombre de la cuenca donde se localiza el sitio de monitoreo,Texto,A - Z
+CUERPO_DE_AGUA,Nombre del cuerpo de agua donde se localiza el sitio de monitoreo,Texto,A - Z
+ORGANISMO_DE_CUENCA,Nombre del Organismo de Cuenca de agua donde se localiza el sitio de monitoreo,Texto,A - Z
+ESTADO,Estado donde se encuentra el sitio de muestreo,Texto,A - Z
+MUNICIPIO,Municipio donde se encuentra el sitio de muestreo,Texto,A - Z
+TIPO,Tipo de cuerpo de agua donde se encuentra el sitio de muestreo,Texto,A - Z
+SUBTIPO,Subtipo de cuerpo de agua donde se encuentra el sitio de muestreo ,Texto,A - Z
+LONGITUD,Coordenada de longitud,Num‚rico,6 decimales
+LATITUD,Coordenada de latitud,Num‚rico,6 decimales
+ANIO,A¤o en que se realiz¢ el muestreo,Texto,2000 - actual
+DBO_mg/L,Valor de la Demanda Bioqu¡mica de Oxigeno,Texto,"1 decimal, ND (No Disponible)"
+DQO_mg/L,Valor de la Demanda Qu¡mica de Oxigeno,Texto,"1 decimal, ND (No Disponible)"
+SST_mg/L,Valor de los Solidos Suspendidos Totales,Texto,"1 decimal, ND (No Disponible)"
+SDT_mg/L,Valor de los Solidos Disueltos Totales,Texto,"1 decimal, ND (No Disponible)"
+CALIDAD_DBO,Clasificaci¢n de la calidad del agua de acuerdo con el indicador de la Demanda Bioqu¡mica de Ox¡geno,Texto,"Excelente, Buena calidad, Aceptable, Contaminada, Fuertemente contaminada, ND (No Disponible)"
+CALIDAD_DQO,Clasificaci¢n de la calidad del agua de acuerdo con el indicador de la Demanda Qu¡mica de Ox¡geno,Texto,"Excelente, Buena calidad, Aceptable, Contaminada, Fuertemente contaminada, ND (No Disponible)"
+CALIDAD_SST,Clasificaci¢n de la calidad del agua de acuerdo con el indicador de los S¢lidos Suspendidos Totales,Texto,"Excelente, Buena calidad, Aceptable, Contaminada, Fuertemente contaminada, ND (No Disponible)"
+CALIDAD_SDT,Clasificaci¢n de la calidad del agua de acuerdo con el indicador de los S¢lidos Suspendidos Totales,Texto,"Dulce, Ligeramente salobres, ND (No disponible)"
+SEMAFORO,"Indica el color de acuerdo al nivel de contaminacion establecido con los indicadores DBO, DQO , SST, y SDT",Texto,"Verde, Amarillo, Rojo, Morado y Azul"
+CUMPLE_CON_DBO,"Indica si cumple con la calidad de Excelente, Buena o Aceptable, para el Indicador Demanda Bioqu¡mica de Ox¡geno",Texto,"SI, NO"
+CUMPLE_CON_DQO,"Indica si cumple con la calidad de Excelente, Buena o Aceptable, para el Indicador Demanda Qu¡mica de Ox¡geno",Texto,"SI, NO"
+CUMPLE_CON_SST,"Indica si cumple con la calidad de Excelente, Buena o Aceptable, para el Indicador S¢lidos Suspendidos Totales",Texto,"SI, NO"
+CUMPLE_CON_SDT,"Indica si cumple con la calidad de Dulce, Ligeramente salobres, para el Indicador Solidos Disueltos Totales",Texto,"SI, NO"
